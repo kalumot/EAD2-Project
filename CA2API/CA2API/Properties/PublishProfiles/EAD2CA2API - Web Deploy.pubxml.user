@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAexxH7u6Pf02Li44P5DtLwAAAAAACAAAAAAAQZgAAAAEAACAAAADeKaRqi6WMmeFv1Y/Lahug4SM4f7GwgAH0EXv3icYcdAAAAAAOgAAAAAIAACAAAADQcyGroBQw7ddvLMNj1J3ahjZXl8zWmnCgF1djI40NA4AAAACJBPW/oI+FvZYYpWxj2qxzNw9I9d+P+QnR6xtJcE01hAJ/r1ATKu5GtoiNsrqGu1siV4AVGywvqqVJf6GL7xcsj7gOsyRVKYQin36DhbX1ZNs6z1A0ZR9h7+hbzIT0ckBhYFey7NDmWu1T5FCKULVJBS7SwOaeeHWL5uXtqOhBrkAAAADVVF8+tQ/+NLJKNTUMLKQDOlUMGSBM4reMFFcXmwbSK7I1uAXJ3btlyQyv69GPZGrydgMZukElAG2h5xFPokZ8</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <AzureDBConnectionStrings Include="Data Source=tcp:ead2apidbserver.database.windows.net,1433;Initial Catalog=EAD2CA2API_db;User Id=kalumnialle@ead2apidbserver;Password=Tallaght19" />
+    <AzureDBConnectionStrings Include="Data Source=tcp:ead2apidbserver.database.windows.net,1433;Initial Catalog=eadddgd342;User Id=kalumnialle@ead2apidbserver;Password=Tallaght19" />
+  </ItemGroup>
+</Project>

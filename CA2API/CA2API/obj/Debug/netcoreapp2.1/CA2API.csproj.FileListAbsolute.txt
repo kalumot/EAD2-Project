@@ -1,0 +1,14 @@
+C:\Users\Kalum\source\repos\CA2API\CA2API\bin\Debug\netcoreapp2.1\CA2API.deps.json
+C:\Users\Kalum\source\repos\CA2API\CA2API\bin\Debug\netcoreapp2.1\CA2API.runtimeconfig.json
+C:\Users\Kalum\source\repos\CA2API\CA2API\bin\Debug\netcoreapp2.1\CA2API.runtimeconfig.dev.json
+C:\Users\Kalum\source\repos\CA2API\CA2API\bin\Debug\netcoreapp2.1\CA2API.dll
+C:\Users\Kalum\source\repos\CA2API\CA2API\bin\Debug\netcoreapp2.1\CA2API.pdb
+C:\Users\Kalum\source\repos\CA2API\CA2API\obj\Debug\netcoreapp2.1\CA2API.csprojAssemblyReference.cache
+C:\Users\Kalum\source\repos\CA2API\CA2API\obj\Debug\netcoreapp2.1\CA2API.csproj.CoreCompileInputs.cache
+C:\Users\Kalum\source\repos\CA2API\CA2API\obj\Debug\netcoreapp2.1\CA2API.RazorAssemblyInfo.cache
+C:\Users\Kalum\source\repos\CA2API\CA2API\obj\Debug\netcoreapp2.1\CA2API.RazorAssemblyInfo.cs
+C:\Users\Kalum\source\repos\CA2API\CA2API\obj\Debug\netcoreapp2.1\CA2API.AssemblyInfoInputs.cache
+C:\Users\Kalum\source\repos\CA2API\CA2API\obj\Debug\netcoreapp2.1\CA2API.AssemblyInfo.cs
+C:\Users\Kalum\source\repos\CA2API\CA2API\obj\Debug\netcoreapp2.1\CA2API.RazorTargetAssemblyInfo.cache
+C:\Users\Kalum\source\repos\CA2API\CA2API\obj\Debug\netcoreapp2.1\CA2API.dll
+C:\Users\Kalum\source\repos\CA2API\CA2API\obj\Debug\netcoreapp2.1\CA2API.pdb
