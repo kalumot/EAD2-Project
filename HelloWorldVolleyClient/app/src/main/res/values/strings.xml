@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Airtricity League</string>
+    <string name="call_button_text">Call Service</string>
+    <string name="header" translatable="false">Last 5 Matches:</string>
+    <string name="score" translatable="false">SCORE:</string>
+    <string name="home" translatable="false">HOME:</string>
+    <string name="away" translatable="false">AWAY:</string>
+</resources>

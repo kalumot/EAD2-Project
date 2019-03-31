@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Airtricity League</string>
+    <string name="call_button_text">Call Service</string>
+    <string name="header" translatable="false">Letze 5 Spiele:</string>
+    <string name="score" translatable="false">TORE:</string>
+    <string name="home" translatable="false">ZUHAUSE:</string>
+    <string name="away" translatable="false">WEG:</string>
+</resources>
