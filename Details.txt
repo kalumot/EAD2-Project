@@ -1,0 +1,14 @@
+URI SCHEME
+- https://ead2ca2api.azurewebsites.net/api/team/{team.code}    (Gives all the matches stored that the team are involved in)
+- https://ead2ca2api.azurewebsites.net/api/team/all   (Shows all the teams)
+- https://ead2ca2api.azurewebsites.net/api/match/all   (Shows the last 5 matches added no matter the team)
+
+
+
+github - https://github.com/kalumot/EAD2-Project
+
+
+Database Details:
+Details: Server=tcp:footballca2.database.windows.net,1433;Initial Catalog=FootballCa2;Persist Security Info=False;User ID=kalum;Password=Tallaght1;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
+
+Both Database and API hosted on azure using an sql sever and the webapp service
