@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace EFCoreCA2.Migrations
 {
-    public partial class initial : Migration
+    public partial class test : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -13,7 +13,8 @@ namespace EFCoreCA2.Migrations
                 {
                     ID = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
-                    Name = table.Column<string>(nullable: true)
+                    Name = table.Column<string>(nullable: true),
+                    Code = table.Column<string>(nullable: true)
                 },
                 constraints: table =>
                 {
@@ -27,7 +28,9 @@ namespace EFCoreCA2.Migrations
                     ID = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
                     HomeID = table.Column<int>(nullable: true),
-                    AwayID = table.Column<int>(nullable: true)
+                    AwayID = table.Column<int>(nullable: true),
+                    HomeScore = table.Column<int>(nullable: false),
+                    AwayScore = table.Column<int>(nullable: false)
                 },
                 constraints: table =>
                 {

@@ -27,7 +27,11 @@ namespace EFCoreCA2.Migrations
 
                     b.Property<int?>("AwayID");
 
+                    b.Property<int>("AwayScore");
+
                     b.Property<int?>("HomeID");
+
+                    b.Property<int>("HomeScore");
 
                     b.HasKey("ID");
 
@@ -43,6 +47,8 @@ namespace EFCoreCA2.Migrations
                     b.Property<int>("ID")
                         .ValueGeneratedOnAdd()
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("Code");
 
                     b.Property<string>("Name");
 

@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EFCoreCA2.Migrations
 {
     [DbContext(typeof(FootballContext))]
-    [Migration("20190325054118_initial")]
-    partial class initial
+    [Migration("20190331201717_test")]
+    partial class test
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -29,7 +29,11 @@ namespace EFCoreCA2.Migrations
 
                     b.Property<int?>("AwayID");
 
+                    b.Property<int>("AwayScore");
+
                     b.Property<int?>("HomeID");
+
+                    b.Property<int>("HomeScore");
 
                     b.HasKey("ID");
 
@@ -45,6 +49,8 @@ namespace EFCoreCA2.Migrations
                     b.Property<int>("ID")
                         .ValueGeneratedOnAdd()
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("Code");
 
                     b.Property<string>("Name");
 
