@@ -1,6 +1,8 @@
 # EAD2-Project
 Niall Moone, Kalum O'Toole
 
+Read Document for full details
+
 API hosted at: https://ead2ca2api.azurewebsites.net
 
  - /api/team/all  for all teams
